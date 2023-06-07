@@ -1,0 +1,114 @@
+.header {
+  background-color: #14544e;
+  color: #e2eee8;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.headerContainer {
+  width: 100%;
+  max-width: 1024px;
+  margin: 20px 0px 80px 0px;
+}
+.headerContainer.listmode {
+  margin: 20px 0px 0px 0px;
+}
+.headerList {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+.headerListItems {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.headerDescription {
+  margin: 20px 0px;
+}
+.headerBtn {
+  background-color: #538971;
+  border: none;
+  color: #e2eee8;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.headerSearchBar {
+  height: 30px;
+  background-color: #e2eee8;
+  border: 3px solid #f9f871;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 0px;
+  border-radius: 10px;
+  position: absolute;
+  bottom: -25px;
+  width: 100%;
+  max-width: 1024px;
+}
+.headerIcon {
+  color: #14544e;
+}
+.headerSearchItem {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.headerSearchBtn {
+  background-color: #538971;
+  border: none;
+  color: #e2eee8;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.headerSearchInput{
+    border: none;
+    outline: none;
+    background-color: #e2eee8;
+}
+.headerSearchText{
+    color: #14544e;
+    cursor: pointer;
+}
+.date{
+    position: absolute;
+    top: 50px;
+}
+
+.noOfPeople{
+    position: absolute;
+    background-color: #e2eee8;
+    top: 50px;
+    color: #14544e;
+    border-radius: 5px;
+
+}
+.noOfPeopleItems{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.counter{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 15px;
+    color: black;
+}
+.noOfPeopleBtn{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    border: 1px solid #538971;
+    color: #538971;
+background-color: #e2eee8;
+}
+.noOfPeopleBtn:disabled{
+  cursor: not-allowed;
+}
