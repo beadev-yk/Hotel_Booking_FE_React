@@ -78,6 +78,7 @@
 .date{
     position: absolute;
     top: 50px;
+    z-index: 2;
 }
 
 .noOfPeople{
@@ -86,6 +87,7 @@
     top: 50px;
     color: #14544e;
     border-radius: 5px;
+    z-index: 2;
 
 }
 .noOfPeopleItems{

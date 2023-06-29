@@ -1,4 +1,5 @@
 import "../Styling/Homepage.css";
+import Featured from "./Featured";
 import Header from "./Header";
 import Navbar from "./Navbar";
 const HomeComponent = ()=>{
@@ -6,6 +7,10 @@ const HomeComponent = ()=>{
         <div>
             <Navbar/>
             <Header/>
+            <div className="homeContainer">
+
+            <Featured/>
+            </div>
         </div>
     )
 }
